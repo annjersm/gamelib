@@ -10,7 +10,7 @@ a {
 }
 /*** Hamburger Menu ***/
 .h_menu {
-    margin: 20px 0 0 0;
+    margin: 10px 20px 0 0;
     width: 40px;
     float: right;
 }
@@ -23,6 +23,7 @@ a {
 /*** Grid ***/
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
+.col-29 {width: 24%;}
 .col-3 {width: 25%;}
 .col-4 {width: 33.33%;}
 .col-5 {width: 41.66%;}
@@ -44,19 +45,23 @@ a {
     display: table;
 }
 
-.title h1 {
-    text-align: center;
-}
+.title h1 {text-align: center;}
 .game {
     text-align: center;
     color: white;
     border: 2px solid red;
     border-radius: 10px;
     margin: 5px;
-    height: 100px;
+    height: 150px;
     padding: 40px 10px 0 10px;
 }
-.game a {color: white;}
+.game h1 {color: white; margin: 0;}
+.game h2 {color: white; margin: 0;}
+.game h3 {color: white; margin: 0;}
+.game h4 {color: white; margin: 0;}
+.game h5 {color: white; margin: 0;}
+.game p {color: white; margin: 0;}
+
 .game:hover {
     background-color: #333333;
     border: 3px solid darkred;
