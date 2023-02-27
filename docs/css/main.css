@@ -63,7 +63,7 @@ a {
 }
 /*** Background ***/
 .mad-max {
-    background-image: url("background.png");
+    background-image: url("../../css/background.png");
 }
 .button-image {
     width: 100px;
