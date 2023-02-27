@@ -36,7 +36,7 @@ a {
 [class*="col-"] {
     float: left;
     padding: 15px 0 0 0;
-    border: 1px solid red;
+    //border: 1px solid red;
 }
 .row::after {
     content: "";
