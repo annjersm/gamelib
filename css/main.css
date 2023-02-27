@@ -2,13 +2,24 @@
     box-sizing: border-box;
 }
 body {
-    background-color: black;
+    background-color: #222222;
     color: white;
 }
 a {
     text-decoration: none;
 }
-
+/*** Hamburger Menu ***/
+.h_menu {
+    margin: 20px 0 0 0;
+    width: 40px;
+    float: right;
+}
+.h_menu div {
+    float: right;
+    border: 2px solid white;
+    margin: 4px;
+    width: 30px;
+}
 /*** Grid ***/
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
@@ -24,7 +35,7 @@ a {
 .col-12 {width: 100%;}
 [class*="col-"] {
     float: left;
-    padding: 15px;
+    padding: 15px 0 0 0;
     border: 1px solid red;
 }
 .row::after {
@@ -39,4 +50,21 @@ a {
 .game {
     text-align: center;
     color: white;
+    border: 2px solid red;
+    border-radius: 10px;
+    margin: 5px;
+    height: 100px;
+    padding: 40px 10px 0 10px;
+}
+.game a {color: white;}
+.game:hover {
+    background-color: #333333;
+    border: 3px solid darkred;
+}
+/*** Background ***/
+.mad-max {
+    background-image: url("background.png");
+}
+.button-image {
+    width: 100px;
 }
