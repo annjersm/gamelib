@@ -21,7 +21,9 @@ a {
     width: 30px;
 }
 /*** Grid ***/
+.col-09 {width: 8%;}
 .col-1 {width: 8.33%;}
+.col-19 {width: 200px;}
 .col-2 {width: 16.66%;}
 .col-29 {width: 24%;}
 .col-3 {width: 25%;}
@@ -52,8 +54,8 @@ a {
     border: 2px solid red;
     border-radius: 10px;
     margin: 5px;
-    height: 150px;
-    padding: 40px 10px 0 10px;
+    height: 300px;
+    padding: 100px 10px 0 10px;
 }
 .game h1 {color: white; margin: 0;}
 .game h2 {color: white; margin: 0;}
@@ -61,11 +63,27 @@ a {
 .game h4 {color: white; margin: 0;}
 .game h5 {color: white; margin: 0;}
 .game p {color: white; margin: 0;}
-
 .game:hover {
     background-color: #333333;
     border: 3px solid darkred;
 }
+
+.genres {
+    text-align: center;
+    color: white;
+    border: 2px solid red;
+    border-radius: 10px;
+    margin: 5px;
+    height: 100px;
+    padding: 40px 10px 0 10px;
+    width: 16%;
+}
+.genres * { margin: 0;}
+.genres:hover {
+    background-color: #333333;
+    border: 3px solid darkred;
+}
+
 /*** Background ***/
 .mad-max {
     background-image: url("../../css/background.png");
