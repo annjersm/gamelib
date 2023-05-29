@@ -1,4 +1,5 @@
 # gamelib
 
-Just testing HTML and stuff
+Just experimenting with HTML and stuff
+
 https://annjersm.github.io/gamelib/
